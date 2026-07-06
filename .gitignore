@@ -1,0 +1,19 @@
+# Model weights (too large for git, download instructions in README)
+models/*.gguf
+models/*.bin
+
+# Compiled engines (built locally, not committed)
+whisper.cpp/
+llama.cpp/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# OS junk
+.DS_Store
+
+# Temp outputs
+*.txt.tmp
+/tmp/
